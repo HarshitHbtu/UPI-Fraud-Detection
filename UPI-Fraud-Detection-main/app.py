@@ -152,7 +152,7 @@ if st.button("Predict"):
     
     st.subheader("Final Prediction Result")
 
-    if fraud_probability >= 0.20:
+    if fraud_probability >= 0.15:
         st.error("🚨 Fraudulent Transaction Detected")
         st.write("**System Status:** TRANSACTION BLOCKED. High ML risk model trigger.")
         
